@@ -1,0 +1,36 @@
+h1{
+  text-align: center;
+  font-family: "Playwrite GB S", cursive;
+  
+}
+.art{
+  margin: auto;
+}
+
+
+td{
+  height: 300px;
+  width: 150px;
+  border: 6px solid white;
+
+}
+
+#one{
+  background-color:#0388A6;
+}
+
+#two{
+  background-color: #9FF500;
+}
+
+#three{
+  background-color:#05CEED;
+}
+
+#four{
+  background-color: #0281D6;
+}
+
+#five{
+  background-color: #06BF00;
+}
