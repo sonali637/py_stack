@@ -36,12 +36,19 @@ function luckySum(a, b, c) {
 
 // 5th problem - you driving a little too fast, and a police officer stop monkeyTrouble
 function caught_speeding(speed, is_birtday) {
-    if (is_birthday)
+    if (is_birthday){
     speed -= 5
 }
 if (speed <= 60) {
   return 0
 }
-if (speed <= 80) {
+if (60 < speed <= 80) {
+   return 1
+}
+  return 2
+}
 
+// 6th problem - Bonus: Make Bricks
+function makeBrikcs(small, big, goal) {
+     return goal%5 >= 0 && goal%5 - small <= 0 && small + 5*big >= goal;
 }
