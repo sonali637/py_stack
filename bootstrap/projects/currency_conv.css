@@ -46,5 +46,26 @@ from input {
 }
 
 .select-container img {
-    font-size: 1.75rem;
+    max-width: 2rem;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: 1px solid lemonchiffon;
+    background-color:black;
+}
+
+.msg {
+    margin: 2rem 0 2rem;
+}
+
+form button {
+    height: 3rem;
+    background-color: blueviolet;
+    color: aliceblue;
+    cursor: pointer;
 }
